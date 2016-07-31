@@ -19,3 +19,8 @@ while [ $wait ];
 	fi
 done
 
+
+tran=$(ls -a /Users/luke/GitHub/TestLauncher/transcripts | awk 'END{print $NF}')
+
+less /Users/luke/GitHub/TestLauncher/transcripts/$tran
+
