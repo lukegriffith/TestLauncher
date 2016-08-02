@@ -8,5 +8,5 @@ PowerShell loads profile.ps1 checks to ensure the remote profile is up to date a
 
 After this, PowerShell executes all pester tests located in DevModules, and exports the results to XML in testResults.  
  
-
+More details can be found here [link](http://www.lukegriffith.co.uk/powershell/2016/07/31/Cross-Platform-PowerShell-Testing.html)
 
