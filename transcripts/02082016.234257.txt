@@ -1,0 +1,135 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20160802234257
+Username: SRV\Administrator
+RunAs User: SRV\Administrator
+Machine: SRV (Microsoft Windows NT 10.0.14300.0)
+Host Application: Powershell.exe
+Process ID: 1844
+PSVersion: 5.1.14300.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14300.1000
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.14300.1000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is share:\transcripts\02082016.234257.txt
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Windows\system32> cd x:
+PS X:\> ls
+
+
+    Directory: X:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       02/08/2016     23:39                DevModules
+d-----       31/07/2016     16:30                bash
+d-----       31/07/2016     15:14                modules
+d-----       31/07/2016     16:32                posh
+d-----       31/07/2016     12:04                testresults
+d-----       02/08/2016     23:42                transcripts
+------       31/07/2016     16:00            509 ReadMe.Markdown
+
+
+PS X:\> cd .\DevModules\
+PS X:\DevModules> ls
+
+
+    Directory: X:\DevModules
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       02/08/2016     23:38                Logger
+------       31/07/2016     15:15             46 ReadMe.Markdown
+------       02/08/2016     23:39            209 test.tests.disabled.ps1
+
+
+PS X:\DevModules> invoke-pester
+Tests completed in 0ms
+Passed: 0 Failed: 0 Skipped: 0 Pending: 0
+PS X:\DevModules> cd .\Logger\
+PS X:\DevModules\Logger> ls
+
+
+    Directory: X:\DevModules\Logger
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+------       02/08/2016     23:39            225 Log.Tests.psm1
+------       02/08/2016     23:38            205 Log.psm1
+------       02/08/2016     23:33            122 Logger.psd1
+------       02/08/2016     23:39            215 Logger.psm1
+
+
+PS X:\DevModules\Logger> invoke-pester
+Tests completed in 0ms
+Passed: 0 Failed: 0 Skipped: 0 Pending: 0
+PS X:\DevModules\Logger> invoke-pester
+Describing Testing Log class
+   Context Craetes new
+PS X:\DevModules\Logger> TerminatingError(): "Unable to find type [Log]."
+    [-] Should create new 773ms
+      Unable to find type [Log].
+      at line: 13 in X:\DevModules\Logger\Log.Tests.ps1
+Tests completed in 773ms
+Passed: 0 Failed: 1 Skipped: 0 Pending: 0
+PS X:\DevModules\Logger> invoke-pester
+Describing Testing Log class
+   Context Craetes new
+PS X:\DevModules\Logger> TerminatingError(): "The term 'X:\DevModules\Logger\Log.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+    [-] Error occurred in Context block 131ms
+      The term 'X:\DevModules\Logger\Log.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+      At X:\DevModules\Logger\Log.Tests.ps1:8 char:11
+Tests completed in 131ms
+Passed: 0 Failed: 1 Skipped: 0 Pending: 0
+PS X:\DevModules\Logger> invoke-pester
+Describing Testing Log class
+   Context Craetes new
+PS X:\DevModules\Logger> TerminatingError(Invoke-Item): "A positional parameter cannot be found that accepts argument 'X:\DevModules\Logger\Log.ps1'."
+>> TerminatingError(Invoke-Item): "A positional parameter cannot be found that accepts argument 'X:\DevModules\Logger\Log.ps1'."
+    [-] Error occurred in Context block 127ms
+      A positional parameter cannot be found that accepts argument 'X:\DevModules\Logger\Log.ps1'.
+      At X:\DevModules\Logger\Log.Tests.ps1:8 char:9
+Tests completed in 127ms
+Passed: 0 Failed: 1 Skipped: 0 Pending: 0
+PS X:\DevModules\Logger> invoke-pester
+Import-Module : The specified module 'X:\DevModules\Logger\Log.psm1' was not loaded because no valid module file was 
+found in any module directory.
+    + CategoryInfo          : ResourceUnavailable: (X:\DevModules\Logger\Log.psm1:String) [Import-Module], 
+FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+PS X:\DevModules\Logger> TerminatingError(): "At X:\DevModules\Logger\Log.psm1:15 char:23
++     Log ([string]$a) : this() {
++                       ~
+Missing 'base' after ':' in a base class constructor call."
+[-] Error occurred in test script 'X:\DevModules\Logger\Log.Tests.ps1' 368ms
+  At X:\DevModules\Logger\Log.psm1:15 char:23
+  +     Log ([string]$a) : this() {
+  +                       ~
+  Missing 'base' after ':' in a base class constructor call.
+  at <ScriptBlock>, C:\Program Files\WindowsPowerShell\Modules\Pester\3.3.5\Pester.psm1: line 197
+Tests completed in 368ms
+Passed: 0 Failed: 1 Skipped: 0 Pending: 0
+PS X:\DevModules\Logger> invoke-pester
+Describing Testing Log class
+   Context Craetes new
+    [+] Should create new 330ms
+Tests completed in 330ms
+Passed: 1 Failed: 0 Skipped: 0 Pending: 0
+PS X:\DevModules\Logger> invoke-pester
+Describing Testing Log class
+   Context Craetes new
+    [+] Should create new with base constructor 128ms
+    [+] Should create new with chained constructor 16ms
+Tests completed in 145ms
+Passed: 2 Failed: 0 Skipped: 0 Pending: 0
+PS X:\DevModules\Logger> stop-computer

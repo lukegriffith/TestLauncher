@@ -1,0 +1,88 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20160801234827
+Username: SRV\Administrator
+RunAs User: SRV\Administrator
+Machine: SRV (Microsoft Windows NT 10.0.14300.0)
+Host Application: Powershell.exe
+Process ID: 1984
+PSVersion: 5.1.14300.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14300.1000
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.14300.1000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is share:\transcripts\01082016.234827.txt
+Describing Testing
+   Context First test
+PS>TerminatingError(ConvertFrom-Json): "Invalid object passed in, ':' or '}' expected. (5): {
+	[
+		"1": {
+			"Title":"First Item",
+			"Content":"This is my item"
+		}
+
+
+	]
+}"
+>> TerminatingError(ConvertFrom-Json): "Invalid object passed in, ':' or '}' expected. (5): {
+	[
+		"1": {
+			"Title":"First Item",
+			"Content":"This is my item"
+		}
+
+
+	]
+}"
+PS>TerminatingError(): "Expected: the expression not to throw an exception. Message was {Invalid object passed in, ':' or '}' expected. (5): {
+	[
+		"1": {
+			"Title":"First Item",
+			"Content":"This is my item"
+		}
+
+
+	]
+}}
+    from X:\DevModules\test.tests.ps1:14 char:11
+    +             { $a | ConvertFrom-Json } | should not throw
+    +                    ~~~~~~~~~~~~~~~~"
+>> TerminatingError(): "Expected: the expression not to throw an exception. Message was {Invalid object passed in, ':' or '}' expected. (5): {
+	[
+		"1": {
+			"Title":"First Item",
+			"Content":"This is my item"
+		}
+
+
+	]
+}}
+    from X:\DevModules\test.tests.ps1:14 char:11
+    +             { $a | ConvertFrom-Json } | should not throw
+    +                    ~~~~~~~~~~~~~~~~"
+    [-] Should be valid json 878ms
+      Expected: the expression not to throw an exception. Message was {Invalid object passed in, ':' or '}' expected. (5): {
+      	[
+      		"1": {
+      			"Title":"First Item",
+      			"Content":"This is my item"
+      		}
+      
+      
+      	]
+      }}
+          from X:\DevModules\test.tests.ps1:14 char:11
+          +             { $a | ConvertFrom-Json } | should not throw
+          +                    ~~~~~~~~~~~~~~~~
+      at line: 14 in X:\DevModules\test.tests.ps1
+      14: 			{ $a | ConvertFrom-Json } | should not throw
+Tests completed in 878ms
+Passed: 0 Failed: 1 Skipped: 0 Pending: 0
+**********************
+Windows PowerShell transcript end
+End time: 20160801234829
+**********************

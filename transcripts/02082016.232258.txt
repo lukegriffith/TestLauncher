@@ -1,0 +1,627 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20160802232258
+Username: SRV\Administrator
+RunAs User: SRV\Administrator
+Machine: SRV (Microsoft Windows NT 10.0.14300.0)
+Host Application: Powershell.exe
+Process ID: 1868
+PSVersion: 5.1.14300.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14300.1000
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.14300.1000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is share:\transcripts\02082016.232258.txt
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Windows\system32> ls
+
+
+    Directory: C:\Windows\system32
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       25/03/2016     13:04                0409
+d-----       25/03/2016     11:16                AdvancedInstallers
+d-----       25/03/2016     11:15                AppLocker
+d-----       25/03/2016     11:16                ar-SA
+d-----       25/03/2016     11:15                BestPractices
+d-----       25/03/2016     11:16                bg-BG
+d-----       25/03/2016     13:04                Boot
+d-----       30/07/2016     17:17                CatRoot
+d-----       30/07/2016     17:24                catroot2
+d-----       25/03/2016     11:15                CodeIntegrity
+d-----       25/03/2016     13:04                Com
+d-----       25/03/2016     13:01                config
+d---s-       25/03/2016     11:15                Configuration
+d-----       25/03/2016     11:16                cs-CZ
+d-----       25/03/2016     11:16                da-DK
+d-----       25/03/2016     11:16                de-DE
+d---s-       25/03/2016     13:04                DiagSvcs
+d-----       25/03/2016     13:04                Dism
+d-----       25/03/2016     08:57                downlevel
+d-----       30/07/2016     17:24                drivers
+d-----       30/07/2016     17:17                DriverStore
+d---s-       25/03/2016     13:04                dsc
+d-----       25/03/2016     11:16                el-GR
+d-----       25/03/2016     13:04                en
+d-----       25/03/2016     11:16                en-GB
+d-----       25/03/2016     13:04                en-US
+d-----       25/03/2016     11:16                es-ES
+d-----       25/03/2016     11:16                es-MX
+d-----       25/03/2016     11:16                et-EE
+d-----       25/03/2016     11:16                fi-FI
+d-----       25/03/2016     11:16                fr-CA
+d-----       25/03/2016     11:16                fr-FR
+d-----       25/03/2016     11:15                GroupPolicyUsers
+d-----       25/03/2016     11:16                he-IL
+d-----       25/03/2016     11:16                hr-HR
+d-----       25/03/2016     11:16                hu-HU
+d-----       25/03/2016     11:16                icsxml
+d-----       25/03/2016     11:15                IME
+d-----       25/03/2016     11:15                inetsrv
+d-----       25/03/2016     11:15                InputMethod
+d-----       25/03/2016     11:15                Ipmi
+d-----       25/03/2016     11:16                it-IT
+d-----       25/03/2016     11:16                ja-JP
+d-----       25/03/2016     11:16                ko-KR
+d-----       25/03/2016     11:15                Licenses
+d-----       30/07/2016     16:52                LogFiles
+d-----       25/03/2016     11:16                lt-LT
+d-----       25/03/2016     11:16                lv-LV
+d---s-       30/07/2016     16:49                Microsoft
+d-----       25/03/2016     13:04                migration
+d-----       25/03/2016     11:16                migwiz
+d---s-       25/03/2016     11:15                mistreams
+d-----       25/03/2016     11:16                MSDRM
+d-----       25/03/2016     11:16                MsDtc
+d-----       25/03/2016     11:15                MUI
+d-----       25/03/2016     11:16                nb-NO
+d-----       25/03/2016     11:15                NDF
+d-----       25/03/2016     11:15                networklist
+d-----       25/03/2016     11:16                nl-NL
+d-----       25/03/2016     13:04                oobe
+d-----       25/03/2016     11:16                pl-PL
+d-----       25/03/2016     11:16                pt-BR
+d-----       25/03/2016     11:16                pt-PT
+d-----       25/03/2016     11:15                ras
+d-----       30/07/2016     16:50                Recovery
+d-----       25/03/2016     11:16                ro-RO
+d-----       25/03/2016     11:16                ru-RU
+d-----       25/03/2016     11:16                SecureBootUpdates
+d-----       25/03/2016     11:16                ServerManagerInternal
+d-----       25/03/2016     13:04                Setup
+d-----       25/03/2016     11:16                sk-SK
+d-----       25/03/2016     11:16                sl-SI
+d-----       25/03/2016     13:04                slmgr
+d-----       25/03/2016     08:57                SMI
+d-----       25/03/2016     13:15                Speech
+d-----       25/03/2016     13:15                Speech_OneCore
+d-----       25/03/2016     13:04                spool
+d-----       25/03/2016     11:15                spp
+d-----       25/03/2016     11:16                sppui
+d-----       25/03/2016     11:16                sr-Latn-CS
+d-----       25/03/2016     11:16                sr-Latn-RS
+d-----       25/03/2016     11:16                sv-SE
+d-----       25/03/2016     13:04                Sysprep
+d-----       25/03/2016     11:15                Tasks
+d-----       25/03/2016     11:16                th-TH
+d-----       25/03/2016     11:16                tr-TR
+d-----       25/03/2016     11:16                uk-UA
+d-----       30/07/2016     17:00                wbem
+d-----       25/03/2016     11:15                WDI
+d-----       25/03/2016     11:15                WindowsPowerShell
+d-----       25/03/2016     11:15                winevt
+d-----       25/03/2016     11:15                WinMetadata
+d-----       25/03/2016     13:04                winrm
+d-----       25/03/2016     11:16                zh-CN
+d-----       25/03/2016     11:16                zh-HK
+d-----       25/03/2016     11:16                zh-TW
+-a----       25/03/2016     11:07        5508096 aclui.dll
+-a----       25/03/2016     11:07         236520 ActionQueue.dll
+-a----       25/03/2016     11:09          34816 ActivationVdev.dll
+-a----       25/03/2016     11:07         264704 activeds.dll
+-a----       25/03/2016     11:07         112640 activeds.tlb
+-a----       25/03/2016     11:07        3368960 actxprxy.dll
+-a----       25/03/2016     11:07          59392 adprovider.dll
+-a----       25/03/2016     11:07         247808 adsldp.dll
+-a----       25/03/2016     11:07         249344 adsldpc.dll
+-a----       25/03/2016     11:07          99328 adsmsext.dll
+-a----       25/03/2016     11:07         338944 adsnt.dll
+-a----       25/03/2016     11:08         825856 adtschema.dll
+-a----       25/03/2016     11:07         670592 advapi32.dll
+-a----       25/03/2016     11:07           3072 advapi32res.dll
+-a----       25/03/2016     11:07         135680 advpack.dll
+-a----       25/03/2016     11:07         261120 apds.dll
+-a----       25/03/2016     11:07          98792 apisetschema.dll
+-a----       25/03/2016     11:07         476672 apphelp.dll
+-a----       25/03/2016     11:07          65784 appidapi.dll
+-a----       25/03/2016     11:07          19456 appidcertstorecheck.exe
+-a----       25/03/2016     11:07         160256 appidpolicyconverter.exe
+-a----       25/03/2016     11:07          44544 appidsvc.dll
+-a----       25/03/2016     11:07         307200 AppLockerCSP.dll
+-a----       25/03/2016     11:07         197632 appmgmts.dll
+-a----       25/03/2016     11:07          26112 ARP.EXE
+-a----       25/03/2016     11:09          30912 aspnet_counters.dll
+-a----       25/03/2016     11:08          88576 asycfilt.dll
+-a----       25/03/2016     11:07          29696 at.exe
+-a----       25/03/2016     11:07          96768 atl.dll
+-a----       25/03/2016     11:07         364032 atmfd.dll
+-a----       25/03/2016     11:07          45056 atmlib.dll
+-a----       25/03/2016     11:07          20480 attrib.exe
+-a----       25/03/2016     11:07         205312 auditcse.dll
+-a----       25/03/2016     11:08          35840 auditpol.exe
+-a----       25/03/2016     11:08          51200 auditpolcore.dll
+-a----       25/03/2016     11:08         488448 authfwcfg.dll
+-a----       25/03/2016     11:07         864256 authui.dll
+-a----       25/03/2016     11:08         279552 authz.dll
+-a----       25/03/2016     11:08         942592 autochk.exe
+-a----       25/03/2016     11:07         927232 autoconv.exe
+-a----       25/03/2016     11:07         897024 autofmt.exe
+-a----       25/03/2016     11:07         907264 azroles.dll
+-a----       25/03/2016     11:07          31744 AzSqlExt.dll
+-a----       25/03/2016     11:07         200680 basecsp.dll
+-a----       25/03/2016     11:08          65536 basesrv.dll
+-a----       25/03/2016     11:07          97776 bcd.dll
+-a----       25/03/2016     11:07         172032 bcdboot.exe
+-a----       25/03/2016     11:07         415232 bcdedit.exe
+-a----       25/03/2016     11:07          78848 bcdprov.dll
+-a----       25/03/2016     11:07          89600 bcdsrv.dll
+-a----       25/03/2016     11:08         416456 BCP47Langs.dll
+-a----       25/03/2016     11:08         161352 bcrypt.dll
+-a----       25/03/2016     11:08         430408 bcryptprimitives.dll
+-a----       25/03/2016     11:08         791040 BFE.DLL
+-a----       25/03/2016     11:07         293376 BingASDS.dll
+-a----       25/03/2016     11:07          26112 bitsperf.dll
+-a----       25/03/2016     11:08          56832 BitsProxy.dll
+-a----       25/03/2016     11:10          78336 BlbEvents.dll
+-a----       25/03/2016     11:07        3170304 boot.sdi
+-a----       25/03/2016     11:07          88064 bootcfg.exe
+-a----       25/03/2016     11:07           3584 bootstr.dll
+-a----       25/03/2016     11:08          26080 BOOTVID.DLL
+-a----       25/03/2016     11:09           7680 BPAInst.dll
+-a----       25/03/2016     11:08         249856 BrokerLib.dll
+-a----       25/03/2016     11:09          58368 browcli.dll
+-a----       25/03/2016     11:09         134144 browser.dll
+-a----       25/03/2016     11:08         142792 cabinet.dll
+-a----       25/03/2016     11:07          32768 cacls.exe
+-a----       25/03/2016     11:09           4119 CallUxxProvider.vbs
+-a----       25/03/2016     11:07          62464 capiprovider.dll
+-a----       25/03/2016     11:07          23552 capisp.dll
+-a----       25/03/2016     11:08         458752 catsrv.dll
+-a----       25/03/2016     11:08          50176 catsrvps.dll
+-a----       25/03/2016     11:08         493568 catsrvut.dll
+-a----       25/03/2016     11:07          34304 cbclient.dll
+-a----       25/03/2016     11:07         225792 cdd.dll
+-a----       25/03/2016     11:08         763392 certca.dll
+-a----       25/03/2016     11:07         449536 certcli.dll
+-a----       25/03/2016     11:07         440320 certCredProvider.dll
+-a----       25/03/2016     11:07          65536 certenc.dll
+-a----       25/03/2016     11:07        2879488 CertEnroll.dll
+-a----       25/03/2016     11:07          50176 CertEnrollCtrl.exe
+-a----       25/03/2016     11:07          59904 CertPKICmdlet.dll
+-a----       25/03/2016     11:07          86016 CertPolEng.dll
+-a----       25/03/2016     11:07         187904 certprop.dll
+-a----       25/03/2016     11:07         431104 certreq.exe
+-a----       25/03/2016     11:07        1406976 certutil.exe
+-a----       25/03/2016     11:07          78336 cfgbkend.dll
+-a----       25/03/2016     11:08         263096 cfgmgr32.dll
+-a----       25/03/2016     11:07          39904 cfmifs.dll
+-a----       25/03/2016     11:07          14848 cfmifsproxy.dll
+-a----       25/03/2016     11:07          17408 change.exe
+-a----       25/03/2016     11:07         130048 chartv.dll
+-a----       25/03/2016     11:07          14336 chcp.com
+-a----       25/03/2016     11:08          27648 CheckNetIsolation.exe
+-a----       25/03/2016     11:07          22528 chglogon.exe
+-a----       25/03/2016     11:07          25600 chgport.exe
+-a----       25/03/2016     11:07          22016 chgusr.exe
+-a----       25/03/2016     11:07          25600 chkdsk.exe
+-a----       25/03/2016     11:07          20480 chkntfs.exe
+-a----       25/03/2016     11:07          25600 chkwudrv.dll
+-a----       25/03/2016     11:07          33792 choice.exe
+-a----       25/03/2016     11:07          12800 CHxReadingStringIME.dll
+-a----       25/03/2016     11:08         624664 ci.dll
+-a----       25/03/2016     11:07          45568 cipher.exe
+-a----       25/03/2016     11:09          20480 CIWmi.dll
+-a----       25/03/2016     11:07          17920 clb.dll
+-a----       25/03/2016     11:08         632888 clbcatq.dll
+-a----       25/03/2016     11:07          75776 clfsw32.dll
+-a----       25/03/2016     11:07          86016 cliconfg.dll
+-a----       25/03/2016     11:07          30720 cliconfg.exe
+-a----       25/03/2016     11:07          38400 cliconfg.rll
+-a----       25/03/2016     11:07          30208 clip.exe
+-a----       25/03/2016     11:08          79712 Clipc.dll
+-a----       25/03/2016     11:08         623088 ClipSVC.dll
+-a----       25/03/2016     11:09          16384 clrhost.dll
+-a----       25/03/2016     11:07         679424 clusapi.dll
+-a----       25/03/2016     11:07         233472 cmd.exe
+-a----       25/03/2016     11:07          13824 cmdext.dll
+-a----       25/03/2016     11:08          19968 cmdkey.exe
+-a----       25/03/2016     11:07          93696 cmifw.dll
+-a----       25/03/2016     11:07         110080 cngcredui.dll
+-a----       25/03/2016     11:07          66048 cngprovider.dll
+-a----       25/03/2016     11:07          39424 cnvfat.dll
+-a----       25/03/2016     11:08          79872 colbact.dll
+-a----       25/03/2016     11:08        2763944 combase.dll
+-a----       25/03/2016     11:08          10240 comcat.dll
+-a----       25/03/2016     11:07         673768 comctl32.dll
+-a----       25/03/2016     11:07        1018368 comdlg32.dll
+-a----       25/03/2016     11:08         430048 coml2.dll
+-a----       25/03/2016     11:07          25088 comp.exe
+-a----       25/03/2016     11:07          45056 compact.exe
+-a----       25/03/2016     11:07          45736 CompatTelRunner.exe
+-a----       25/03/2016     11:08         111104 comrepl.dll
+-a----       25/03/2016     11:08        1295872 comres.dll
+-a----       25/03/2016     11:08        1641472 comsvcs.dll
+-a----       25/03/2016     11:09          47104 Configure-SMRemoting.exe
+-a----       25/03/2016     11:09         159232 ConfigureHyperV.exe
+-a----       25/03/2016     11:08          47104 conhost.exe
+-a----       25/03/2016     11:08         324608 ConhostV1.dll
+-a----       25/03/2016     11:08         320000 ConhostV2.dll
+-a----       25/03/2016     11:07          99840 console.dll
+-a----       25/03/2016     11:09         267264 ConsoleLogon.dll
+-a----       25/03/2016     11:07         117760 control.exe
+-a----       25/03/2016     11:07          21504 convert.exe
+-a----       25/03/2016     11:07         755272 CoreMessaging.dll
+-a----       25/03/2016     11:07          88576 correngine.dll
+-a----       25/03/2016     11:07          68344 CredentialUIBroker.exe
+-a----       25/03/2016     11:08         433152 CredProvDataModel.dll
+-a----       25/03/2016     11:08         268800 credprovhost.dll
+-a----       25/03/2016     11:08         184832 credprovs.dll
+-a----       25/03/2016     11:08         185856 credprovslegacy.dll
+-a----       25/03/2016     11:07          23552 credssp.dll
+-a----       25/03/2016     11:07         195072 credui.dll
+-a----       25/03/2016     11:08        1824920 crypt32.dll
+-a----       25/03/2016     11:08          31216 cryptbase.dll
+-a----       25/03/2016     11:08         122368 cryptcatsvc.dll
+-a----       25/03/2016     11:08          70448 cryptdll.dll
+-a----       25/03/2016     11:08         168448 cryptnet.dll
+-a----       25/03/2016     11:07         371200 CryptoWinRT.dll
+-a----       25/03/2016     11:07          81312 cryptsp.dll
+-a----       25/03/2016     11:08          80384 cryptsvc.dll
+-a----       25/03/2016     11:07          57344 crypttpmeksvc.dll
+-a----       25/03/2016     11:07         600064 cryptui.dll
+-a----       25/03/2016     11:07         382464 cryptuiwizard.dll
+-a----       25/03/2016     11:07         127760 cryptxml.dll
+-a----       25/03/2016     11:07          53248 cscapi.dll
+-a----       25/03/2016     11:07          29696 cscdll.dll
+-a----       25/03/2016     11:07         162304 cscript.exe
+-a----       25/03/2016     11:09           6144 CSDeployRes.dll
+-a----       25/03/2016     11:08          57344 csrsrv.dll
+-a----       25/03/2016     11:08          18280 csrss.exe
+-a----       25/03/2016     11:08          24064 CSystemEventsBrokerClient.dll
+-a----       25/03/2016     11:07          10752 ctfmon.exe
+-a----       25/03/2016     11:07          66082 C_037.NLS
+-a----       25/03/2016     11:07          66082 C_10000.NLS
+-a----       25/03/2016     11:07         162850 C_10001.NLS
+-a----       25/03/2016     11:07         195618 C_10002.NLS
+-a----       25/03/2016     11:07         177698 C_10003.NLS
+-a----       25/03/2016     11:07          66082 C_10004.NLS
+-a----       25/03/2016     11:07          66082 C_10005.NLS
+-a----       25/03/2016     11:07          66082 C_10006.NLS
+-a----       25/03/2016     11:07          66082 C_10007.NLS
+-a----       25/03/2016     11:07         173602 C_10008.NLS
+-a----       25/03/2016     11:07          66082 C_10010.NLS
+-a----       25/03/2016     11:07          66082 C_10017.NLS
+-a----       25/03/2016     11:07          66082 C_10021.NLS
+-a----       25/03/2016     11:07          66082 C_10029.NLS
+-a----       25/03/2016     11:07          66082 C_10079.NLS
+-a----       25/03/2016     11:07          66082 C_10081.NLS
+-a----       25/03/2016     11:07          66082 C_10082.NLS
+-a----       25/03/2016     11:07          66082 C_1026.NLS
+-a----       25/03/2016     11:07          66082 C_1047.NLS
+-a----       25/03/2016     11:07          66082 C_1140.NLS
+-a----       25/03/2016     11:07          66082 C_1141.NLS
+-a----       25/03/2016     11:07          66082 C_1142.NLS
+-a----       25/03/2016     11:07          66082 C_1143.NLS
+-a----       25/03/2016     11:07          66082 C_1144.NLS
+-a----       25/03/2016     11:07          66082 C_1145.NLS
+-a----       25/03/2016     11:07          66082 C_1146.NLS
+-a----       25/03/2016     11:07          66082 C_1147.NLS
+-a----       25/03/2016     11:07          66082 C_1148.NLS
+-a----       25/03/2016     11:07          66082 C_1149.NLS
+-a----       25/03/2016     11:08          66082 C_1250.NLS
+-a----       25/03/2016     11:08          66082 C_1251.NLS
+-a----       25/03/2016     11:07          66082 C_1252.NLS
+-a----       25/03/2016     11:08          66082 C_1253.NLS
+-a----       25/03/2016     11:08          66082 C_1254.NLS
+-a----       25/03/2016     11:08          66082 C_1255.NLS
+-a----       25/03/2016     11:08          66082 C_1256.NLS
+-a----       25/03/2016     11:08          66082 C_1257.NLS
+-a----       25/03/2016     11:08          66082 C_1258.NLS
+-a----       25/03/2016     11:08         189986 C_1361.NLS
+-a----       25/03/2016     11:08         180258 C_20000.NLS
+-a----       25/03/2016     11:08         186402 C_20001.NLS
+-a----       25/03/2016     11:08         173602 C_20002.NLS
+-a----       25/03/2016     11:08         185378 C_20003.NLS
+-a----       25/03/2016     11:08         180258 C_20004.NLS
+-a----       25/03/2016     11:08         187938 C_20005.NLS
+-a----       25/03/2016     11:07          66082 C_20105.NLS
+-a----       25/03/2016     11:07          66082 C_20106.NLS
+-a----       25/03/2016     11:07          66082 C_20107.NLS
+-a----       25/03/2016     11:07          66082 C_20108.NLS
+-a----       25/03/2016     11:08          66082 C_20127.NLS
+-a----       25/03/2016     11:08         139810 C_20261.NLS
+-a----       25/03/2016     11:07          66082 C_20269.NLS
+-a----       25/03/2016     11:07          66082 C_20273.NLS
+-a----       25/03/2016     11:07          66082 C_20277.NLS
+-a----       25/03/2016     11:07          66082 C_20278.NLS
+-a----       25/03/2016     11:07          66082 C_20280.NLS
+-a----       25/03/2016     11:07          66082 C_20284.NLS
+-a----       25/03/2016     11:07          66082 C_20285.NLS
+-a----       25/03/2016     11:07          66082 C_20290.NLS
+-a----       25/03/2016     11:07          66082 C_20297.NLS
+-a----       25/03/2016     11:07          66082 C_20420.NLS
+-a----       25/03/2016     11:07          66082 C_20423.NLS
+-a----       25/03/2016     11:07          66082 C_20424.NLS
+-a----       25/03/2016     11:07          66082 C_20833.NLS
+-a----       25/03/2016     11:07          66082 C_20838.NLS
+-a----       25/03/2016     11:08          66082 C_20866.NLS
+-a----       25/03/2016     11:07          66082 C_20871.NLS
+-a----       25/03/2016     11:07          66082 C_20880.NLS
+-a----       25/03/2016     11:07          66082 C_20905.NLS
+-a----       25/03/2016     11:07          66082 C_20924.NLS
+-a----       25/03/2016     11:07         165410 c_20930.nls
+-a----       25/03/2016     11:07         165410 c_20931.nls
+-a----       25/03/2016     11:08         180770 C_20932.NLS
+-a----       25/03/2016     11:07         195106 c_20933.nls
+-a----       25/03/2016     11:07         160802 c_20935.nls
+-a----       25/03/2016     11:08         173602 C_20936.NLS
+-a----       25/03/2016     11:07         191522 c_20937.nls
+-a----       25/03/2016     11:07         165410 c_20939.nls
+-a----       25/03/2016     11:08         177698 C_20949.NLS
+-a----       25/03/2016     11:07         196642 c_20950.nls
+-a----       25/03/2016     11:07          66082 C_21025.NLS
+-a----       25/03/2016     11:07          66082 C_21027.NLS
+-a----       25/03/2016     11:08          66082 C_21866.NLS
+-a----       25/03/2016     11:08          66082 C_28591.NLS
+-a----       25/03/2016     11:08          66082 C_28592.NLS
+-a----       25/03/2016     11:08          66082 C_28593.NLS
+-a----       25/03/2016     11:08          66082 C_28594.NLS
+-a----       25/03/2016     11:08          66082 C_28595.NLS
+-a----       25/03/2016     11:08          66082 C_28596.NLS
+-a----       25/03/2016     11:08          66082 C_28597.NLS
+-a----       25/03/2016     11:08          66082 C_28598.NLS
+-a----       25/03/2016     11:08          66082 C_28599.NLS
+-a----       25/03/2016     11:08          66082 c_28603.nls
+-a----       25/03/2016     11:08          66082 C_28605.NLS
+-a----       25/03/2016     11:07          66594 C_437.NLS
+-a----       25/03/2016     11:07          66082 C_500.NLS
+-a----       25/03/2016     11:08          66082 C_708.NLS
+-a----       25/03/2016     11:08          66594 C_720.NLS
+-a----       25/03/2016     11:08          66594 C_737.NLS
+-a----       25/03/2016     11:08          66594 C_775.NLS
+-a----       25/03/2016     11:08          66594 C_850.NLS
+-a----       25/03/2016     11:08          66594 C_852.NLS
+-a----       25/03/2016     11:08          66594 C_855.NLS
+-a----       25/03/2016     11:08          66594 C_857.NLS
+-a----       25/03/2016     11:08          66594 C_858.NLS
+-a----       25/03/2016     11:08          66594 C_860.NLS
+-a----       25/03/2016     11:08          66594 C_861.NLS
+-a----       25/03/2016     11:08          66594 C_862.NLS
+-a----       25/03/2016     11:08          66594 C_863.NLS
+-a----       25/03/2016     11:08          66594 C_864.NLS
+-a----       25/03/2016     11:08          66594 C_865.NLS
+-a----       25/03/2016     11:08          66594 C_866.NLS
+-a----       25/03/2016     11:08          66594 C_869.NLS
+-a----       25/03/2016     11:07          66082 C_870.NLS
+-a----       25/03/2016     11:08          66594 C_874.NLS
+-a----       25/03/2016     11:07          66082 C_875.NLS
+-a----       25/03/2016     11:08         162850 C_932.NLS
+-a----       25/03/2016     11:08         196642 C_936.NLS
+-a----       25/03/2016     11:08         196642 C_949.NLS
+-a----       25/03/2016     11:08         196642 C_950.NLS
+-a----       25/03/2016     11:08         227328 C_G18030.DLL
+-a----       25/03/2016     11:08          14848 c_GSM7.DLL
+-a----       25/03/2016     11:08          16896 C_IS2022.DLL
+-a----       25/03/2016     11:07          14336 C_ISCII.DLL
+-a----       25/03/2016     11:07          13824 d3d8thk.dll
+-a----       25/03/2016     11:07        2111560 d3d9.dll
+-a----       25/03/2016     11:08         110592 dab.dll
+-a----       25/03/2016     11:08          13824 dabapi.dll
+-a----       25/03/2016     11:07          27136 davhlpr.dll
+-a----       25/03/2016     11:08         151040 dbgcore.dll
+-a----       25/03/2016     11:08        5243904 dbgeng.dll
+-a----       25/03/2016     11:08        1491968 dbghelp.dll
+-a----       25/03/2016     11:08         607744 DbgModel.dll
+-a----       25/03/2016     11:07         117760 dbnetlib.dll
+-a----       25/03/2016     11:07          23552 dbnmpntw.dll
+-a----       25/03/2016     11:07          67584 dcgpofix.exe
+-a----       25/03/2016     11:07          14336 dciman32.dll
+-a----       25/03/2016     11:07         218624 dcpromo.exe
+-a----       25/03/2016     11:07         478720 DDDS.dll
+-a----       25/03/2016     11:12            858 DefaultQuestions.json
+-a----       25/03/2016     11:08         186880 Defrag.exe
+-a----       25/03/2016     11:08          19968 defragproxy.dll
+-a----       25/03/2016     11:08           4608 defragres.dll
+-a----       25/03/2016     11:08         484352 defragsvc.dll
+-a----       25/03/2016     11:07          26112 delegatorprovider.dll
+-a----       25/03/2016     11:08         185344 DeviceCensus.exe
+-a----       25/03/2016     11:08         152040 devobj.dll
+-a----       25/03/2016     11:08          58880 devrtl.dll
+-a----       25/03/2016     11:08          61952 dfscli.dll
+-a----       25/03/2016     11:09        1560064 dfshim.dll
+-a----       25/03/2016     11:07          14336 dhcpcmonitor.dll
+-a----       25/03/2016     11:08         356864 dhcpcore.dll
+-a----       25/03/2016     11:08         268800 dhcpcore6.dll
+-a----       25/03/2016     11:08          85504 dhcpcsvc.dll
+-a----       25/03/2016     11:08          67072 dhcpcsvc6.dll
+-a----       25/03/2016     11:07         215040 dhcpsapi.dll
+-a----       25/03/2016     11:08        1690624 diagtrack.dll
+-a----       25/03/2016     11:07          23040 DIMC.exe
+-a----       25/03/2016     11:07          43008 dimsjob.dll
+-a----       25/03/2016     11:07          46592 dimsroam.dll
+-a----       25/03/2016     11:07         537856 directmanipulation.dll
+-a----       25/03/2016     11:07         250880 discan.dll
+-a----       25/03/2016     11:07         157696 diskpart.exe
+-a----       25/03/2016     11:07          24576 diskperf.exe
+-a----       25/03/2016     11:07         336896 diskraid.exe
+-a----       25/03/2016     11:07         452608 diskshadow.exe
+-a----       25/03/2016     11:07         299496 Dism.exe
+-a----       25/03/2016     11:07         913384 DismApi.dll
+-a----       25/03/2016     11:07          58880 dispci.dll
+-a----       25/03/2016     11:07          29184 dispex.dll
+-a----       25/03/2016     11:07          73216 djoin.exe
+-a----       25/03/2016     11:08          20456 dllhost.exe
+-a----       25/03/2016     11:08          11776 dllhst3g.exe
+-a----       25/03/2016     11:07          95216 dmcmnutils.dll
+-a----       25/03/2016     11:07          14336 dmiso8601utils.dll
+-a----       25/03/2016     11:07         682952 dnsapi.dll
+-a----       25/03/2016     11:07          32768 dnscacheugc.exe
+-a----       25/03/2016     11:09          70144 DnsProxyService.CoreCLR.dll
+-a----       25/03/2016     11:07         284160 dnsrslvr.dll
+-a----       25/03/2016     11:07          19456 doskey.exe
+-a----       25/03/2016     11:08          15872 dpapi.dll
+-a----       25/03/2016     11:07          76288 dpapimig.exe
+-a----       25/03/2016     11:07          57344 dpapiprovider.dll
+-a----       25/03/2016     11:08         198144 dpapisrv.dll
+-a----       25/03/2016     11:07         169984 dps.dll
+-a----       25/03/2016     11:07         495616 dpx.dll
+-a----       25/03/2016     11:07          81920 driverquery.exe
+-a----       25/03/2016     11:07          25600 drprov.dll
+-a----       25/03/2016     11:08          69120 drvcfg.exe
+-a----       25/03/2016     11:07         130048 drvinst.exe
+-a----       25/03/2016     11:07         868840 drvstore.dll
+-a----       25/03/2016     11:07          39424 dsauth.dll
+-a----       25/03/2016     11:10         464896 DscCore.dll
+-a----       25/03/2016     11:10         204288 DscCoreConfProv.dll
+-a----       25/03/2016     11:10          19968 dscproxy.dll
+-a----       25/03/2016     11:10          25600 DscTimer.dll
+-a----       25/03/2016     11:09           4608 DsDeployRes.dll
+-a----       25/03/2016     11:07         119808 dskquota.dll
+-a----       25/03/2016     11:08          32256 dsparse.dll
+-a----       25/03/2016     11:07         171008 dsprop.dll
+-a----       25/03/2016     11:08          28592 dsrole.dll
+-a----       25/03/2016     11:12         215943 dssec.dat
+-a----       25/03/2016     11:07          57344 dssec.dll
+-a----       25/03/2016     11:08         156136 dssenh.dll
+-a----       25/03/2016     11:07         684544 dsuiext.dll
+-a----       25/03/2016     11:08         101376 DuCsps.dll
+-a----       25/03/2016     11:07        1735680 dui70.dll
+-a----       25/03/2016     11:07         585216 duser.dll
+-a----       25/03/2016     11:07         115712 dwmapi.dll
+-a----       25/03/2016     11:07        2412032 DWrite.dll
+-a----       25/03/2016     11:07          22016 dxgwdi.dll
+-a----       25/03/2016     11:07         149504 EditionUpgradeHelper.dll
+-a----       25/03/2016     11:07         751112 EditionUpgradeManagerObj.dll
+-a----       25/03/2016     11:07         760320 efscore.dll
+-a----       25/03/2016     11:07          41984 efsext.dll
+-a----       25/03/2016     11:07          78336 efslsaext.dll
+-a----       25/03/2016     11:07          60416 efssvc.dll
+-a----       25/03/2016     11:07          34816 efsutil.dll
+-a----       25/03/2016     11:08         454656 es.dll
+-a----       25/03/2016     11:07          19968 EsdSip.dll
+-a----       25/03/2016     11:07        3026432 esent.dll
+-a----       25/03/2016     11:07          68096 esentprf.dll
+-a----       25/03/2016     11:08         336384 esentutl.exe
+-a----       25/03/2016     11:07          36864 esevss.dll
+-a----       25/03/2016     11:09          16896 EssentialsConfigPluginNative.dll
+-a----       25/03/2016     11:07          50688 ETWESEProviderResources.dll
+-a----       25/03/2016     11:08          84480 EventAggregation.dll
+-a----       25/03/2016     11:09          17920 eventcls.dll
+-a----       25/03/2016     11:07          40448 eventcreate.exe
+-a----       25/03/2016     11:07          66048 expand.exe
+-a----       25/03/2016     11:07           8704 f3ahvoas.dll
+-a----       25/03/2016     11:08         378240 Faultrep.dll
+-a----       25/03/2016     11:07          25088 fc.exe
+-a----       25/03/2016     11:07          72192 feclient.dll
+-a----       25/03/2016     11:07         157184 FilterDS.dll
+-a----       25/03/2016     11:07          17408 find.exe
+-a----       25/03/2016     11:07          34816 findstr.exe
+-a----       25/03/2016     11:07          15872 finger.exe
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Windows\system32> cd x:
+PS X:\> ls
+
+
+    Directory: X:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       01/08/2016     23:59                DevModules
+d-----       31/07/2016     16:30                bash
+d-----       31/07/2016     15:14                modules
+d-----       31/07/2016     16:32                posh
+d-----       31/07/2016     12:04                testresults
+d-----       02/08/2016     23:22                transcripts
+------       31/07/2016     16:00            509 ReadMe.Markdown
+
+
+PS X:\> $env:HOMEPATH
+\Users\Administrator
+PS X:\> pwd
+
+Path
+----
+X:\
+
+
+PS X:\> ls
+
+
+    Directory: X:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       01/08/2016     23:59                DevModules
+d-----       31/07/2016     16:30                bash
+d-----       31/07/2016     15:14                modules
+d-----       31/07/2016     16:32                posh
+d-----       31/07/2016     12:04                testresults
+d-----       02/08/2016     23:22                transcripts
+------       31/07/2016     16:00            509 ReadMe.Markdown
+
+
+PS X:\> $cred = (Get-Credential);  nsn -ComputerName 52.174.162.127 -Credential $cred
+nsn : [52.174.162.127] Connecting to remote server 52.174.162.127 failed with the following error message : The WinRM 
+client cannot process the request. If the authentication scheme is different from Kerberos, or if the client computer 
+is not joined to a domain, then HTTPS transport must be used or the destination machine must be added to the 
+TrustedHosts configuration setting. Use winrm.cmd to configure TrustedHosts. Note that computers in the TrustedHosts 
+list might not be authenticated. You can get more information about that by running the following command: winrm help 
+config. For more information, see the about_Remote_Troubleshooting Help topic.
+At line:1 char:28
++ ... (Get-Credential);  nsn -ComputerName 52.174.162.127 -Credential $cred
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.Manageme....RemoteRunspace:RemoteRunspace) [New-PSSession], 
+PSRemotingTransportException
+    + FullyQualifiedErrorId : ServerNotTrusted,PSSessionOpenFailed
+nsn : [52.174.162.127] Connecting to remote server 52.174.162.127 failed with the following error message : The WinRM
+client cannot process the request. If the authentication scheme is different from Kerberos, or if the client computer
+is not joined to a domain, then HTTPS transport must be used or the destination machine must be added to the
+TrustedHosts configuration setting. Use winrm.cmd to configure TrustedHosts. Note that computers in the TrustedHosts
+list might not be authenticated. You can get more information about that by running the following command: winrm help
+config. For more information, see the about_Remote_Troubleshooting Help topic.
+At line:1 char:28
++ ... (Get-Credential);  nsn -ComputerName 52.174.162.127 -Credential $cred
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.Manageme....RemoteRunspace:RemoteRunspace) [New-PSSession], PSRemotin
+   gTransportException
+    + FullyQualifiedErrorId : ServerNotTrusted,PSSessionOpenFailed
+PS X:\> mstsc 
+mstsc : The term 'mstsc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ mstsc
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (mstsc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+mstsc : The term 'mstsc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ mstsc
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (mstsc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS X:\> stop-computer
