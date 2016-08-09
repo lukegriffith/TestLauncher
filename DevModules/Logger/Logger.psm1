@@ -1,5 +1,5 @@
 using Namespace System.Collections.Generic
-using Module .\Log
+using Module $PsScriptRoot\Log
 using Module ModuleHelper
 
 Class Logger {

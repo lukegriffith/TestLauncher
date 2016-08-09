@@ -1,5 +1,7 @@
 using Module ./Log.psm1
 
+Import-Module $PsScriptRoot\Logger.psm1
+
 Describe "Testing Log class" {
 
 
@@ -15,6 +17,16 @@ Describe "Testing Log class" {
 			$a = [Log]::new("Hello")
 			$a | should be $true
 		}
+
+    }
+
+    Context "Exports functions" {
+        $Commands = Get-Command -Module Logger
+
+        it "Should export getPrivateData" {
+
+            $Commands | measure | % count | should be 1
+        }
 
     }
 
